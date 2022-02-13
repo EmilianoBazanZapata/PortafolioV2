@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LateralMenuComponent } from './Components/Shared/lateral-menu/lateral-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LateralMenuComponent
   ],
   imports: [
     BrowserModule,
