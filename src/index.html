@@ -1,13 +1,78 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>PortafolioV2</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!--Box Icons-->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </head>
+
 <body>
   <app-root></app-root>
+  <div class="sidebar">
+    <div class="logo-details">
+        <i class='bx bxs-briefcase-alt-2 icon'></i>
+        <div class="logo-name">Portafolio</div>
+        <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <a href="#">
+                <i class='bx bxl-unity'></i>
+                <span class="links-name">Unity</span>
+            </a>
+            <span class="tooltip">Unity</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-angular'></i>
+                <span class="links-name">Angular</span>
+            </a>
+            <span class="tooltip">Angular</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-html5' ></i>
+                <span class="links-name">HTML</span>
+            </a>
+            <span class="tooltip">HTML</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-desktop'></i>
+                <span class="links-name">Win Forms (C#)</span>
+            </a>
+            <span class="tooltip">Win Forms (C#)</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bx-server'></i>
+                <span class="links-name">.Net Core</span>
+            </a>
+            <span class="tooltip">.Net Core</span>
+        </li>
+        <li class="profile">
+            <div class="profile-details">
+                <img src="Img/Anonymous_emblem.png">
+                <div class="name-job">
+                    <div class="name">Emiliano</div>
+                    <div class="job">Bazán-Zapata</div>
+                </div>
+            </div>
+            <i class='bx bx-log-out' id="log-out"></i>
+            <i class='bx bx-user-circle'id="profile"></i>
+        </li>
+    </ul>
+</div>
+<section class="home-section">
+    <div class="text">Home Content</div>
+</section>
+  <script src="./assets/vendors/Script.js"></script>
 </body>
+
 </html>
