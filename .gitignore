@@ -43,3 +43,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/app/Components/Shared/lateral-menu/lateral-menu.component.css
+src/app/Components/Shared/lateral-menu/lateral-menu.component.html
+src/app/Components/Shared/lateral-menu/lateral-menu.component.spec.ts
+src/app/Components/Shared/lateral-menu/lateral-menu.component.ts
